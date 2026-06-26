@@ -13,7 +13,7 @@ Dataset diperoleh dari Kaggle: [Antam Historical Gold Price](https://www.kaggle.
 
 ## Tahapan Preprocessing
 1. **Konversi Waktu**: Mengubah format `Time (ms)` menjadi format *datetime*.
-2. **Pembersihan Data**: Menghapus kolom yang tidak relevan.
+2. **Pembersihan Data**: Menghapus kolom yang tidak relevan serta memfilter data sehingga hanya mencakup periode 2020–2025.
 3. **Pengurutan**: Mengurutkan data secara kronologis berdasarkan waktu.
 4. **Feature Engineering**: Membuat kolom `hari_ke` sebagai input numerik untuk model regresi.
 5. **Data Splitting**: Membagi data menjadi 80% data latih dan 20% data uji (*shuffle=False*).
