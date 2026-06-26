@@ -48,18 +48,8 @@ Berdasarkan visualisasi dan skor evaluasi, model berbasis pohon (*Random Forest*
    - joblib
    - matplotlib
 
-2. Siapkan dataset pada folder `dataset/`.
+2. Jalankan notebook `utils/1_EDA_dan_Preprocessing.ipynb` untuk melakukan EDA dan preprocessing data.
 
-3. Jalankan notebook `utils/1_EDA_dan_Preprocessing.ipynb` untuk melakukan:
-   - Exploratory Data Analysis (EDA)
-   - Preprocessing data
-   - Feature engineering
-   - Data splitting
-
-4. Jalankan notebook `utils/2_Pemodelan_dan_Evaluasi.ipynb` untuk:
-   - Melatih model regresi (Linear Regression, Decision Tree, Polynomial Regression, dan Random Forest)
-   - Mengevaluasi performa model
-   - Menyimpan model ke folder `models/`
-
+3. Jalankan notebook `utils/2_Pemodelan_dan_Evaluasi.ipynb` untuk melatih model, mengevaluasi performa, dan menyimpan model ke folder `models/`.
 ---
 *Proyek ini diselesaikan sebagai Tugas Besar Mata Kuliah Machine Learning.*
