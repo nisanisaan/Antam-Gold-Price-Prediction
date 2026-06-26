@@ -9,7 +9,7 @@
 Proyek ini bertujuan untuk memprediksi harga emas menggunakan *Machine Learning*. Harga emas merupakan data *time-series* yang fluktuatif, sehingga diperlukan model yang mampu menangkap pola tren kenaikan harga dari waktu ke waktu untuk membantu analisis pergerakan harga di masa depan.
 
 ## Sumber Dataset
-Dataset diperoleh dari Kaggle: [Antam Historical Gold Price](https://www.kaggle.com/datasets/garethharrison/antam-historical-gold-price/data). Data terdiri dari kolom `Time (ms)` dan `Gold Price`.
+Dataset diperoleh dari Kaggle: [Antam Historical Gold Price](https://www.kaggle.com/datasets/garethharrison/antam-historical-gold-price/data). Data terdiri dari kolom `Time (ms)`, `Gold Price` dan `Date`
 
 ## Tahapan Preprocessing
 1. **Konversi Waktu**: Mengubah format `Time (ms)` menjadi format *datetime*.
