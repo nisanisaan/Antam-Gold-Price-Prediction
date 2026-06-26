@@ -50,6 +50,6 @@ Berdasarkan visualisasi dan skor evaluasi, model berbasis pohon (*Random Forest*
 
 2. Jalankan notebook `utils/1_EDA_dan_Preprocessing.ipynb` untuk melakukan EDA dan preprocessing data.
 
-3. Jalankan notebook `utils/2_Pemodelan_dan_Evaluasi.ipynb` untuk melatih model, mengevaluasi performa, dan menyimpan model ke folder `models/`.
+3. Jalankan notebook `2_Pemodelan_dan_Evaluasi.ipynb` untuk melatih model, mengevaluasi performa, dan menyimpan model ke folder `models/`.
 ---
 *Proyek ini diselesaikan sebagai Tugas Besar Mata Kuliah Machine Learning.*
