@@ -41,9 +41,25 @@ Berikut adalah perbandingan metrik performa keempat model:
 Berdasarkan visualisasi dan skor evaluasi, model berbasis pohon (*Random Forest* & *Decision Tree*) memiliki keterbatasan dalam melakukan ekstrapolasi tren kenaikan harga emas yang terus naik karena model ini hanya memprediksi berdasarkan nilai yang pernah dipelajari di data latih. Sebaliknya, model regresi polinomial lebih mampu merepresentasikan tren kenaikan harga jangka panjang, meskipun akurasi model tetap terbatas mengingat volatilitas harga emas yang dipengaruhi faktor eksternal. Proyek ini menunjukkan pentingnya pemilihan algoritma yang tepat untuk data *time-series*.
 
 ## Cara Menjalankan
-1. Pastikan library `pandas`, `scikit-learn`, `joblib`, dan `matplotlib` terinstal.
-2. Jalankan notebook `1_EDA_dan_Preprocessing.ipynb`.
-3. Jalankan notebook `2_Pemodelan_dan_Evaluasi.ipynb` untuk melatih model dan melihat hasilnya.
+
+1. Pastikan library berikut telah terinstal:
+   - pandas
+   - scikit-learn
+   - joblib
+   - matplotlib
+
+2. Siapkan dataset pada folder `dataset/`.
+
+3. Jalankan notebook `utils/1_EDA_dan_Preprocessing.ipynb` untuk melakukan:
+   - Exploratory Data Analysis (EDA)
+   - Preprocessing data
+   - Feature engineering
+   - Data splitting
+
+4. Jalankan notebook `utils/2_Pemodelan_dan_Evaluasi.ipynb` untuk:
+   - Melatih model regresi (Linear Regression, Decision Tree, Polynomial Regression, dan Random Forest)
+   - Mengevaluasi performa model
+   - Menyimpan model ke folder `models/`
 
 ---
 *Proyek ini diselesaikan sebagai Tugas Besar Mata Kuliah Machine Learning.*
